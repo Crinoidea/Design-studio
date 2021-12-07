@@ -1,4 +1,5 @@
 @import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;400;500&display=swap');
 
 * {
@@ -6,3 +7,12 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/btn';
+@import 'blocks/title';
+@import 'blocks/promo';
