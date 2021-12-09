@@ -2,6 +2,10 @@
     .container {
         max-width: 960px;
     }
+    .promo {
+        background: url(../img/bg_promo.jpeg) center 50%/auto no-repeat;
+    }
+
 
 }
 
@@ -11,7 +15,6 @@
     }
     .promo {
         min-height: 750px;
-        background: url(../img/bg_promo.jpeg) center 50%/auto no-repeat;
         &__header {
             font-size: 50px;
             line-height: 65px;
