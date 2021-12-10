@@ -5,8 +5,10 @@
     .promo {
         background: url(../img/bg_promo.jpeg) center 50%/auto no-repeat;
     }
-
-
+    .about {
+        background: url(../img/bg_design.jpg) 145% center/auto no-repeat;
+        padding: 150px 0 0 40px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -19,6 +21,9 @@
             font-size: 50px;
             line-height: 65px;
         }
+    }
+    .about {
+        background: url(../img/bg_design.jpg) 0% center/cover no-repeat;
     }
 }
 
@@ -35,12 +40,24 @@
             line-height: 55px;
         }
     }
-
+    .about {
+        min-height: 680px;
+        padding-top: 140px;
+    }
 }
 
 @media (max-width: 576px) {
     .container {
         max-width: 100%;
+    }
+    .title {
+        &_header {
+            font-size: 30px;
+            line-height: 38px;
+        }
+        &_subheader {
+            font-size: 14px;
+        }
     }
     .promo {
         padding: 100px 0;
@@ -50,5 +67,9 @@
             line-height: 39px;
             padding: 0 16px;
         }
+    }
+    .about {
+        min-height: 730px;
+        padding: 120px 20px 0;
     }
 }
