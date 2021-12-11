@@ -9,6 +9,12 @@
         background: url(../img/bg_design.jpg) 145% center/auto no-repeat;
         padding: 150px 0 0 40px;
     }
+    .feature {
+        background: url(../img/bg_feature.jpg) 130% bottom/auto no-repeat #f6f5f3;
+        &__item {
+            width: 280px;
+        }
+    }
 }
 
 @media (max-width: 992px) {
@@ -24,6 +30,20 @@
     }
     .about {
         background: url(../img/bg_design.jpg) 0% center/cover no-repeat;
+    }
+    .feature {
+        padding: 130px 0 150px;
+        background: url(../img/bg_feature.jpg) right bottom/auto no-repeat #f6f5f3;
+        
+        &__wrapper {
+            margin-top: 40px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            width: 330px;
+            margin-top: 50px;
+        }
     }
 }
 
@@ -71,5 +91,15 @@
     .about {
         min-height: 730px;
         padding: 120px 20px 0;
+    }
+    .feature {
+        padding-top: 120px;
+        &__wrapper {
+            margin-top: 20px;
+        }
+        &__item {
+            margin-top: 60px;
+            width: 290px;
+        }
     }
 }
