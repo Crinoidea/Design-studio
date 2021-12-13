@@ -2,14 +2,15 @@
     min-height: 550px;
     padding: 90px 0;
     background: url(../img/design/bg.png) left 10%/auto no-repeat;
-    opacity: 0.8;
+    z-index: -3;
     &__wrapper {
         display: flex;
         justify-content: space-between;
     }
     &__img {
+        z-index: 1;
         position: relative;
-        width: 580px;
+        width: 575px;
         height: 337px;
     }
     &__macbook {
@@ -25,12 +26,12 @@
         z-index: -1;
         width: 415px;
         height: 265px;
-        left: 84px;
+        left: 83px;
         top: 29px;
         border-radius: 10px;
     }
     &__item {
-        width: 500px;
+        max-width: 500px;
     }
     &__subheader {
         margin-top: 30px;
