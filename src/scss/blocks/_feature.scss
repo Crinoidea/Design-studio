@@ -1,7 +1,7 @@
 .feature {
     min-height: 675px;
     padding: 138px 0 184px;
-    background: url(../img/bg_feature.jpg) center center/cover no-repeat;
+    background: url(../img/bg_feature.jpg) center center/contain no-repeat #f6f5f3;
     &__subheader {
         text-align: center;
     }
