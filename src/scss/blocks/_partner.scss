@@ -37,8 +37,13 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        a {
+            width: 130px;
+        }
     }
     &__icon {
+        display: block;
         opacity: 0.35;
+        margin: 0 auto;
     }
 }
