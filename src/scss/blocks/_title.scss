@@ -25,6 +25,7 @@
         font-size: 40px;
         line-height: 50px;
         font-weight: 500;
+        margin: 0;
     }
     &_subheader {
         line-height: 16px;
@@ -33,6 +34,7 @@
         letter-spacing: 0.2em;
         color: $color-pink;
         text-transform: uppercase;
+        margin: 0;
     }
     &_descr {
         opacity: 0.65;
