@@ -28,7 +28,8 @@
             transform: translateX(-50%);
         }
         &-img {
-            width: 768px;
+            padding: 0 26px;
+            width: inherit;
             height: 322px;
             position: absolute;
             top: 53px;
