@@ -124,6 +124,16 @@
             top: 293px;
         }
     }
+    .footer {
+        padding-top: 40px;
+        background: url(../img/bg_footer.png) center 110%/cover no-repeat;
+        &__wrapper {
+            justify-content: space-evenly;
+        }
+        &__item {
+            margin-top: 60px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -183,6 +193,9 @@
             display: none;
         }
     }
+    .footer {
+        background: url(../img/bg_footer.png) center 160%/auto no-repeat;
+    }
 
 }
 
@@ -241,5 +254,8 @@
         &__policy {
             line-height: 24px;
         }
+    }
+    .footer {
+        background: url(../img/bg_footer.png) center 150%/auto no-repeat;
     }
 }
