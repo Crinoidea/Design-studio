@@ -12,6 +12,9 @@
     width: 1140px;
     margin: 0 auto;
 }
+.hide {
+    display: none;
+}
 
 @import 'blocks/btn';
 @import 'blocks/title';
@@ -23,5 +26,6 @@
 @import 'blocks/details';
 @import 'blocks/start';
 @import 'blocks/footer';
+@import 'blocks/modal';
 
 @import 'blocks/media';
