@@ -16,6 +16,10 @@
     display: none;
 }
 
+.show {
+    display: block;
+}
+
 @import 'blocks/btn';
 @import 'blocks/title';
 @import 'blocks/promo';
