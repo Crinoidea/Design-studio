@@ -168,7 +168,7 @@
                 <input type="name" required name="name" placeholder="FULL NAME">
                 <input type="email" required name="email" placeholder="YOUR EMAIL">
                 <input type="password" required name="password" placeholder="PASSWORD">
-                <button class="start__btn btn" type="submit" >TRY NOW</button>
+                <button class="start__btn btn" type="submit" data-submit>TRY NOW</button>
                 <img src="icons/arrow.png" alt="arrow" class="start__img">
                 <span class="start__trial title title_white title_fs16">30 days free trial for all</span>
             </form>
@@ -230,7 +230,7 @@
                     <h3 class="footer__subheader">Get Newsletter</h3>
                     
                     <form action="#" class="footer__form">
-                        <input class="footer__form-input title title_fs16" type="email" required name="email" placeholder="EMAIL"></input>
+                        <input required class="footer__form-input title title_fs16" type="email" name="email" placeholder="EMAIL"></input>
                         <button class="footer__form-btn" type="submit">
                             <img src="icons/envelop.png" alt="envelop" class="footer__form-btn_bg">
                         </button>
@@ -257,7 +257,7 @@
 
     <div class="modal hide">
         <div class="modal__wrapper">
-            <img class="modal__close"src="icons/close.svg" alt="close">
+            <img class="close"src="icons/close.svg" alt="close">
             <div class="modal__header title title_white title_fs22">
                 Sign up now!
             </div>
@@ -272,6 +272,17 @@
             <div class="modal__trial title title_white title_fs16">* 30 days free trial for all</div>
 
             <div class="modal__policy title title_white title_fs16">By Signing up you agree to our <a href="#" class="modal__policy-link">terms & Services.</a></div>
+        </div>
+    </div>
+
+    <div class="registration hide">
+        <div class="registration__wrapper">
+            <img class="close"src="icons/close.svg" alt="close">
+            <img class="registration__check"src="icons/checkmark.svg" alt="check">
+
+            <div class="registration__header title title_white title_fs22">
+                subscription successful!
+            </div>
         </div>
     </div>
 

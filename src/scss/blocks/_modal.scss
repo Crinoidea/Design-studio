@@ -19,19 +19,6 @@
         max-height: 80vh;
         overflow-y: auto;
     }
-    &__close {
-        width: 25px;
-        height: 25px;
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 30px;
-        opacity: .8;
-        font-weight: 700;
-        border: none;
-        background-color: transparent;
-        cursor: pointer;
-    }
     &__form {
         margin-top: 50px;
         input {

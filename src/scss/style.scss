@@ -20,6 +20,19 @@
     display: block;
 }
 
+.close {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    opacity: .8;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
 @import 'blocks/btn';
 @import 'blocks/title';
 @import 'blocks/promo';
@@ -31,5 +44,6 @@
 @import 'blocks/start';
 @import 'blocks/footer';
 @import 'blocks/modal';
+@import 'blocks/registration';
 
 @import 'blocks/media';
